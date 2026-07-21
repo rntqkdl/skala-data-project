@@ -1,0 +1,18 @@
+# 가상 환경 및 캐시
+.venv/
+env/
+__pycache__/
+.ipynb_checkpoints/
+
+# 대용량 데이터 및 가공 파일, 산출물 무시 (용량이 크거나 자동 생성되는 파일들)
+data/processed/
+models/
+logs/
+outputs/
+
+# 원천 데이터 파일 (용량이 크거나 실습용 데이터 파일)
+data/raw/*.json
+data/raw/*.csv
+
+# 시스템 파일
+.DS_Store
